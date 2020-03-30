@@ -12,7 +12,7 @@ class ThemeUI extends React.Component {
       textColor: "#7BF7D1",
       history : ['#19072B' , '#7BF7D1']
     };
-  }
+  } 
   changeColor() {
     let colors = generatColorPair();
     let history = [this.state.backGroundColor , this.state.textColor];
